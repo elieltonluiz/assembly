@@ -1,0 +1,12 @@
+1. Compile Assembly usando o NASM e GCC:
+
+nasm -f elf64 hello.asm
+ld -s -o hello hello.o
+
+**
+
+2. Execute o programa:
+
+./hello
+
+**

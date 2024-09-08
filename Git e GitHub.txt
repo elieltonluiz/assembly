@@ -1,0 +1,48 @@
+-- Aprendendo o Básico --
+
+A. O que é controle de versão?
+
+O controle de versão é um sistema que gerencia e rastreia alterações em arquivos ao longo do tempo, permitindo que várias pessoas colaborem em um projeto enquanto mantém um histórico de todas as modificações. Ele registra alterações em arquivos, como código, documentos ou arquivos de configuração, e os armazena em um repositório. Com o controle de versão, os desenvolvedores podem reverter para versões anteriores, comparar diferenças entre versões e compreender a evolução de um projeto. Ele oferece suporte a recursos como ramificação, onde diferentes linhas de desenvolvimento podem ocorrer de forma independente, e fusão, que combina alterações de diferentes ramificações. No geral, o controle de versão garante que as alterações sejam organizadas, recuperáveis ​​e facilmente gerenciadas, tornando-o uma ferramenta crítica no desenvolvimento de software e em projetos colaborativos.
+
+***
+
+B. Por que usar o Controle de Versão?
+
+Utilizar o controle de versão é essencial para gerenciar mudanças no desenvolvimento de software, pois permite o rastreamento de modificações, a colaboração e a manutenção de um histórico do seu projeto. Ele permite que vários desenvolvedores trabalhem na mesma base de código simultaneamente, sem substituir o trabalho uns dos outros, fornecendo um registro claro de quem fez as alterações e por quê. Os sistemas de controle de versão facilitam a reversão para versões anteriores caso surjam problemas, e suportam ramificação e fusão, que são cruciais para experimentar novos recursos e gerenciar diferentes estágios de desenvolvimento. No geral, o controle de versão garante qualidade de código, responsabilidade e colaboração eficiente em projetos.
+
+***
+
+C. Git versus outros VCS.
+
+Git se tornou o padrão de fato para controle de origem no desenvolvimento de software, mas não é o único sistema de controle de versão (VCS) disponível. Aqui estão algumas diferenças importantes entre o Git e outros VCS populares:
+
+Mercurial: Mercurial é um VCS distribuído que usa uma arquitetura semelhante ao Git. No entanto, possui uma abordagem mais centralizada e não usa hashes para rastrear alterações.
+
+Subversion: Subversion é um VCS centralizado que é frequentemente comparado ao Git. Embora ambos os sistemas suportem ramificação e fusão, o Subversion requer um servidor central para gerenciar o repositório.
+
+Perforce: Perforce é um VCS comercial projetado para projetos de desenvolvimento em grande escala. Ele usa uma abordagem centralizada e possui recursos como automação de construção e rastreamento de problemas.
+
+CVS: CVS é ​​um sistema de controle de versão mais antigo que ainda está em uso hoje. No entanto, faltam muitos recursos modernos e muitas vezes é considerado desatualizado.
+
+***
+
+D. Instalando o Git localmente.
+
+Para usar o Git em sua máquina local, você precisa primeiro instalá-lo. O processo de instalação varia dependendo do seu sistema operacional:
+
+No Windows: Baixe o binário da página oficial de lançamento do Git ou GitHub e siga as instruções de instalação.
+
+No macOS (usando Homebrew): Execute brew install git em seu terminal.
+
+No Linux: execute sudo apt-get install git ou sudo yum install git dependendo da sua distribuição.
+Depois de instalado, você pode verificar a versão do Git executando git --version em seu terminal. Isso exibirá a versão do Git atualmente instalada.
+
+***
+
+-- O que é um Repositório? (Inicialização do repositório) Parte 01 ---
+
+
+git init
+
+O comando git init cria um novo repositório Git. Ele pode ser usado para converter um projeto existente sem versão em um repositório Git ou inicializar um repositório novo e vazio. A maioria dos outros comandos do Git não estão disponíveis fora de um repositório inicializado, então este geralmente é o primeiro comando que você executará em um novo projeto.
+

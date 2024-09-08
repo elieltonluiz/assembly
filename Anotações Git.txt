@@ -1,0 +1,27 @@
+1. Configurar acesso ao git
+
+git config --global elielton.santos 
+
+it config --global elieltonluiz94@gmail.com
+
+**
+
+2. Comandos iniciais
+
+git status	//verifica o status de modificação dos arquivos git
+
+git init	//para trazer arquivos de configurações para diretório 
+
+git add		//adicionar mudanças no índice (ou staging area), Ex: git add arquivo.txt ou git add .
+
+git commit	//cria um ponto de restauração e Inclui uma mensagem descritiva
+
+git remote add	//é utilizado no Git para adicionar um novo repositório remoto ao seu repositório local
+
+git push	//é usado para enviar as alterações confirmadas (commits) do seu repositório local para um repositório remoto
+
+git pull	//é utilizado para buscar e integrar mudanças de um repositório remoto no seu repositório local
+
+git fetch	//ele busca as últimas mudanças do repositório remoto, baixando os commits e atualizações que foram feitos por outros colaboradores.
+
+git merge	//ele integra as alterações de um branch (fonte) no branch em que você está atualmente.
